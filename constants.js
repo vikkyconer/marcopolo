@@ -1,4 +1,4 @@
-export const DIVISIBLE_BY_4 = [
+const DIVISIBLE_BY_4 = [
   0,
   4,
   8,
@@ -25,3 +25,26 @@ export const DIVISIBLE_BY_4 = [
   92,
   96,
 ];
+
+const DIVISIBLE_BY_7 = [
+  0,
+  7,
+  14,
+  21,
+  28,
+  35,
+  42,
+  49,
+  56,
+  63,
+  70,
+  77,
+  84,
+  91,
+  98,
+];
+
+module.exports = {
+  DIVISIBLE_BY_4,
+  DIVISIBLE_BY_7
+};
